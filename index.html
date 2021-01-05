@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Spell Check</title>
+    <style>
+        body, form > textarea {
+            background-color: #ffffff;
+        }
+
+        form > textarea {
+            height: 150px;
+            width: 50%;
+            margin: 0 25% 0 25%;
+            font-size: 14px;
+        }
+
+        p {
+            height: 150px;
+            margin: 0 25% 0 25%;
+            padding: 4px;
+        }
+
+        .not-found {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <textarea id="text" title="text">As you can see, this checks if your spelling is correct or not. If text has spelling errors, then it will highlight red like this: obvioussly speltt innncorrectly.</textarea>
+</form>
+<p id="result"></p>
+
+<script src="app.js"></script>
+</body>
+</html>
